@@ -180,7 +180,7 @@
           "dataDisks": [
             {
               	"name": "datadisk1",
-                "diskSizeGB": "[parametrs('sizeOfDiskInGB')]",
+                "diskSizeGB": "[parametrs('sizeOfEachDataDiskInGB')]",
                 "lun": 0,	
                 "vhd": {
                   "Uri": "[variables('dataDisk1VhdName')]"
